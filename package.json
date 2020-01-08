@@ -1,0 +1,19 @@
+{
+    "name": "react-native-jabcode",
+    "description": "Module for react-native-camera to detect https://github.com/jabcode/jabcode",
+    "version": "0.1.0",
+    "author": "Leif Shackelford <structuresound@gmail.com>",
+    "keywords": [
+        "jabcode",
+        "hccb",
+        "iqr",
+        "camera",
+        "react-native"
+    ],
+    "license": "MIT AND Apache-2.0 AND BSD-3-Clause",
+    "homepage": "https://github.com/chromapdx/react-native-jabcode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chromapdx/react-native-jabcode"
+    }
+}
