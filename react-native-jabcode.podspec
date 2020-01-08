@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc   = true
   s.platform       = :ios, '9.0'
+  s.dependency 'React'
 
   s.subspec "core" do |ss|
     ss.source_files = "jabcode/src/jabcode/**/*.{h,c}"
@@ -22,6 +23,8 @@ Pod::Spec.new do |s|
   s.subspec "reader" do |ss|
     ss.source_files = "jabcode/src/jabreader.c"
   end
+
+  s.source_files = "ios/**/*.{h,m}"
 
   s.default_subspecs = "core", "reader"
 
